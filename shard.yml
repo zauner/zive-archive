@@ -1,0 +1,32 @@
+name: zive_archive
+version: 0.1.0
+
+authors:
+  - sagishi <sagishi@zive.at>
+
+targets:
+  zive_archive:
+    main: src/zive_archive.cr
+
+crystal: 0.35.1
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: "~> 0.10.0"
+
+  mysql:
+    github: crystal-lang/crystal-mysql
+
+  slang:
+    github: jeromegn/slang
+  kilt:
+    github: jeromegn/kilt
+  
+  
+  

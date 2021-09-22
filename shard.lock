@@ -1,0 +1,46 @@
+version: 2.0
+shards:
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.10.1
+
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.1.5
+
+  i18n:
+    git: https://github.com/TechMagister/i18n.cr.git
+    version: 0.3.1
+
+  ifrit:
+    git: https://github.com/imdrasil/ifrit.git
+    version: 0.1.2
+
+  inflector:
+    git: https://github.com/phoffer/inflector.cr.git
+    version: 0.1.8
+
+  jennifer:
+    git: https://github.com/imdrasil/jennifer.cr.git
+    version: 0.10.0
+
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    version: 0.27.0
+
+  kilt:
+    git: https://github.com/jeromegn/kilt.git
+    version: 0.4.1
+
+  mysql:
+    git: https://github.com/crystal-lang/crystal-mysql.git
+    version: 0.13.0
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.3.9
+
+  slang:
+    git: https://github.com/jeromegn/slang.git
+    version: 1.7.3
+
